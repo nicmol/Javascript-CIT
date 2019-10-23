@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import Navbar from './Navbar';
 import './App.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 
   class App extends Component {
@@ -10,6 +12,7 @@ import './App.css';
         <div id="app-container">
           <div className="app">
             <Header />
+            <Navbar />
           </div>
         </div>
       );
